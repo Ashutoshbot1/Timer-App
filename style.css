@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1d2d23;
+    color: white;
+}
+
+
+/* ---------- wrapper -------------- */
+
+/* .wrapper{
+    border: 10px solid black;
+    background-color: #1d2d23;
+    height: 100vh;
+    width: 100%;
+    color: white;
+} */
+
+
+.container{
+    /* border:2px solid red; */
+    max-width: 700px;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    /* padding:0 3rem ; */
+}
+
+.heading{
+    font-size: 3.6rem;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
+.set-time,
+.time-left{
+    /* border:2px solid blue; */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    /* width: 84rem; */
+    height: 10rem;
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 3rem 0;
+    background-color: #34343a;
+
+}
+
+.set-time p,
+.time-left p{
+    font-size: 2rem;
+}
+
+.set-time .inputs,
+.time-left .inputs{
+    /* border:2px solid green; */
+    width: 30.9rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.set-time .inputs span,
+.time-left .inputs span{
+    font-size: 3rem;
+    margin: 0 .5rem;
+
+}
+
+.set-time .inputs input,
+.time-left .inputs input{
+    width: 23%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 3.2rem;
+    background: transparent;
+    color: white;
+
+}
+
+.inputs input::placeholder{
+    color: rgb(186, 186, 186);
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.set-time button,
+.time-left button{
+    font-size: 2rem;
+    width: 11rem;
+    height: 4.4rem;
+    border-radius: 2.6rem;
+    background-color: #f0f757;
+    font-weight: 600;
+    /* border: none; */
+    outline: none;
+
+}
+
+
+/* --------- current-timers-wrapper ------------- */
+
+.current-timers-wrapper{
+    /* border:2px solid blue; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; */
+    font-size: 2rem;
+    width: 100%;
+
+    
+}
+
+.current-timers-wrapper .title{
+    background-color: #39393e;
+    font-size: 2rem;
+    width: 25rem;
+    border-radius: 5rem;
+    padding: .6rem 0;
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+
+.time-left{
+    align-self:stretch;
+}
+
+#warn-containern h2{
+    font-size: 3rem;
+}

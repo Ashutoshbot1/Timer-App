@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Timer App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=1x&id=wrIwUNhk1J4k&format=png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <h3 class="heading">Multiple Timer App</h3>
+            <div class="set-time">
+                <p>Set Time :</p>
+                <div class="inputs">
+                    <input type="number" id="set-hour" max="24" min="0" placeholder="hh">
+                    <span>:</span>
+                    <input type="number" id="set-minute" max="60" min="0" placeholder="mm">
+                    <span>:</span>
+                    <input type="number" id="set-second" max="60" min="0" placeholder="ss">
+                </div>
+
+                <button id="set">Set</button>
+            </div>
+
+            <div id="warn-container"></div>
+
+            <div class="current-timers-wrapper">
+                <p class="title">Current Timers</p>
+                <div class="current-timers">
+                    <p id="no-timers">You Have No Timers Currently!</p>
+
+                    <!-- <div class="time-left">
+                        <p>Time Left :</p>
+                        <div class="inputs">
+                            <input type="number" id="hour" max="24" min="0" placeholder="hh" readonly>
+                            <span>:</span>
+                            <input type="number" id="minute" max="60" min="0" placeholder="mm" readonly>
+                            <span>:</span>
+                            <input type="number" id="second" max="60" min="0" placeholder="ss" readonly>
+                        </div>
+        
+                        <button id="delete">Delete</button>
+                    </div> -->
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
